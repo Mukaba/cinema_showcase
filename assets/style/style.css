@@ -692,7 +692,7 @@ li .prettion {
       position: static;
       flex-direction: row;
       opacity: 1;
-      /* height: fit-content; */
+      height: fit-content;
       gap: 3rem;
       margin-right: 2rem;
       order: 2;
