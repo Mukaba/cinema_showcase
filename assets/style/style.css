@@ -472,4 +472,136 @@ li .prettion {
   gap: 10px;
 }
 
+/* Larger screens */
 
+@media only screen and (min-width: 768px) { 
+
+  .header-bar {
+    justify-content: space-between;
+  }
+
+  .nav-bar {
+    width: fit-content;
+    order: 2;
+  }
+
+  .logo {
+    margin-left: 1rem;
+  }
+  
+  .nav-bar img,
+  .close-menu {
+      display: none;
+    }
+
+    .menu {
+      position: static;
+      flex-direction: row;
+      opacity: 1;
+      height: fit-content;
+      gap: 3rem;
+      margin-right: 2rem;
+      order: 2;
+      background-color: unset;
+    }
+
+    .menu li {
+      line-height: unset;
+      padding: unset;
+      color: rgb(136, 136, 136);
+      border: none;
+      font-size: 0.938em;
+      font-weight: 700;
+      cursor: pointer;
+      align-self: center;
+    }
+
+    li .prettion {
+      font-size: 0.938em;
+      padding: 6.5px 10px;
+    }
+
+    .welcome :first-child {
+      font-size: 3rem;
+    }
+
+    .presnt {
+      padding: 0 5rem;
+    }
+
+    .presentation p {
+      font-size: 6rem;
+      width: 70%;
+    }
+
+    .vid {
+      height: 98%;
+      width: 65%;
+    }
+
+    .welcome-paragraph {
+      width: 50%;
+      padding: 2rem;
+    }
+
+    .events1 {
+      /* width: fit-content; */
+      padding: 3rem;
+      font-size: 2.5rem;
+      color: #575757;
+    }
+
+    .main-program {
+      gap: 5rem;
+    }
+
+    .programs-list {
+      flex-direction: row;
+      padding: 0 5em;
+      overflow: hidden;
+    }
+
+    .program {
+      flex-direction: column;
+      width: fit-content;
+      padding: 1rem;
+      gap: 1rem;
+    }
+
+    .program-about {
+      width: 80%;
+    }
+
+    .more-prog {
+      margin-right: 5rem;
+    }
+
+    .top-movies-list {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+    }
+
+    .top-movie-1 {
+      flex-shrink: 0;
+        flex-basis: 49%; /* 1/2 */
+    }
+
+    .footer {
+      padding: 1rem 10rem;
+    }
+
+    .copy-logo {
+      justify-content: start;
+      gap: 3rem;
+    }
+
+    .p-logo {
+      width: 5rem;
+    }
+
+    .footer-text {
+      padding-left: 9rem;
+    }
+}
