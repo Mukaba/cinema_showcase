@@ -666,6 +666,10 @@ li .prettion {
   font-family: Lato-regular, serif;
 }
 
+.cut {
+  display: none;
+}
+
 /* Larger screens */
 
 @media only screen and (min-width: 768px) { 
@@ -799,4 +803,46 @@ li .prettion {
     .footer-text {
       padding-left: 9rem;
     }
+
+      /* ABOUT PAGE */
+
+  .about-section-1 {
+    padding: 5.5rem;
+  }
+
+  .about-title h1 {
+    font-size: 4rem;
+  }
+
+  .cut {
+    display: block;
+  }
+
+  .about-card {
+    width: 80%;
+    align-self: center;
+  }
+
+  .about-real-logo {
+    height: 15rem;
+    width: 60%;
+  }
+
+  .past-event-img {
+    flex-direction: row;
+  }
+
+  .past-event {
+    height: 25rem;
+    width: 50%;
+  }
+
+  .past-event:hover {
+    cursor: pointer;
+  }
+
+  .past-event img {
+    object-fit: cover;
+    height: 25rem;
+  }
 }
