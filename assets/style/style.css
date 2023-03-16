@@ -97,6 +97,10 @@ html {
   border-top: 1px solid rgb(60, 63, 70);
 }
 
+.menu li a {
+  color: white;
+}
+
 li .prettion {
   font-size: 1.125em;
   font-weight: bold;
@@ -505,7 +509,8 @@ li .prettion {
       background-color: unset;
     }
 
-    .menu li {
+    .menu li,
+    .menu li a {
       line-height: unset;
       padding: unset;
       color: rgb(136, 136, 136);
