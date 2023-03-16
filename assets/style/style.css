@@ -99,6 +99,12 @@ html {
 
 .menu li a {
   color: white;
+  transition: 1s ease;
+}
+
+.menu li a:hover {
+  color: black;
+  transition: 1s ease;
 }
 
 li .prettion {
