@@ -78,6 +78,7 @@ const newProgram = [
 const newMovie = [
   {
     coverImage: 'assets/img/img1.jpg',
+    bgImage: 'assets/img/b&w.jpg',    
     movieName: 'No way home',
     movieDate: '2022-10-28',
     movieDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur reprehenderit voluptatem magni.',
@@ -191,7 +192,7 @@ movies.innerHTML += `
           <li class="top-movie-1">
             <div class="movi-cover-name">
               <div class="movie-cover">
-                <div class="movie-bg"></div>
+                <div class="movie-bg"><img src="${newMovie[0].bgImage}" alt="This backgroun image"></div>
                 <div class="movie-img">
                   <img src="${newMovie[0].coverImage}" alt="This is spiderman cover picture">
                 </div>
@@ -208,7 +209,7 @@ movies.innerHTML += `
           <li class="top-movie-1">
             <div class="movi-cover-name">
               <div class="movie-cover">
-                <div class="movie-bg"></div>
+              <div class="movie-bg"><img src="${newMovie[0].bgImage}" alt="This backgroun image"></div>
                 <div class="movie-img">
                   <img src="${newMovie[1].coverImage}" alt="This is spiderman cover picture">
                 </div>
@@ -225,7 +226,7 @@ movies.innerHTML += `
           <li class="top-movie-1">
             <div class="movi-cover-name">
               <div class="movie-cover">
-                <div class="movie-bg"></div>
+              <div class="movie-bg"><img src="${newMovie[0].bgImage}" alt="This backgroun image"></div>
                 <div class="movie-img">
                   <img src="${newMovie[2].coverImage}" alt="This is spiderman cover picture">
                 </div>
@@ -242,7 +243,7 @@ movies.innerHTML += `
           <li class="top-movie-1">
             <div class="movi-cover-name">
               <div class="movie-cover">
-                <div class="movie-bg"></div>
+              <div class="movie-bg"><img src="${newMovie[0].bgImage}" alt="This backgroun image"></div>
                 <div class="movie-img">
                   <img src="${newMovie[3].coverImage}" alt="This is spiderman cover picture">
                 </div>
@@ -259,7 +260,7 @@ movies.innerHTML += `
           <li class="top-movie-1">
             <div class="movi-cover-name">
               <div class="movie-cover">
-                <div class="movie-bg"></div>
+              <div class="movie-bg"><img src="${newMovie[0].bgImage}" alt="This backgroun image"></div>
                 <div class="movie-img">
                   <img src="${newMovie[4].coverImage}" alt="This is spiderman cover picture">
                 </div>

@@ -387,9 +387,14 @@ li .prettion {
   left: 0;
   height: 5rem;
   width: 5rem;
-  background-image: url(/assets/img/b&w.jpg);
+  /* background-image: url(/assets/img/b&w.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+}
+
+.movie-bg img {
+  object-fit: cover;
+  height: 100%;
 }
 
 .movie-img {
