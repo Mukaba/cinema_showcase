@@ -360,7 +360,16 @@ li .prettion {
   align-items: center;
   justify-content: space-between;
   background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0);
+  transition: .5s ease;
   padding: 0.5rem;
+}
+
+.program:hover {
+  background: rgba(255, 255, 255, 0.047);
+  border: 1px solid white;
+  cursor: pointer;
+  transition: .5s ease;
 }
 
 .program-icon {
