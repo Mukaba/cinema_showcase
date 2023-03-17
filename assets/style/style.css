@@ -515,6 +515,10 @@ li .prettion {
   font-family: Lato-thin, serif;
 }
 
+.about-footer {
+  background-color: #272a31;
+}
+
 .copy-logo {
   display: flex;
   flex-wrap: nowrap;
