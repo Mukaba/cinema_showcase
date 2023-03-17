@@ -51,17 +51,17 @@ Built useing html, pure css and Javascript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Project Presntation -->
+Project Presntation
 
-<!-- ## Project Presentation <a name="project-presentation"></a>
+## Project Presentation <a name="project-presentation"></a>
 
 Walking through portfolio outline.
 
-- [Project Presentation Link] [https://www.loom.com/](https://www.loom.com/)
+- [Project Presentation Link] [https://www.loom.com/share/c6233d33ab7a4ee38d14e0ebe4334fa7](https://www.loom.com/share/c6233d33ab7a4ee38d14e0ebe4334fa7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-<!-- LIVE DEMO -->
+LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -69,7 +69,7 @@ Walking through portfolio outline.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+GETTING STARTED
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
