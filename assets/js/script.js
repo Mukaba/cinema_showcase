@@ -14,6 +14,7 @@ const events = document.getElementById('newEvents');
 const programs = document.getElementById('allPrograms');
 const movies = document.getElementById('moviesList');
 const partners = document.getElementById('partnerList');
+const moreMovies = document.getElementById('expandlist');
 
 menuBtn.addEventListener('click', () => {
   menu.classList.add('active');
@@ -22,6 +23,9 @@ menuBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
   menu.classList.remove('active');
   noscroll.classList.remove('noscroll');
+});
+moreMovies.addEventListener('click', () => {
+  movies.classList.toggle('expand');
 });
 
 // Datas
