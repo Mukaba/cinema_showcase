@@ -14,7 +14,6 @@ const events = document.getElementById('newEvents');
 const programs = document.getElementById('allPrograms');
 const movies = document.getElementById('moviesList');
 const partners = document.getElementById('partnerList');
-const pastEventt = document.getElementById('pastEvents');
 
 menuBtn.addEventListener('click', () => {
   menu.classList.add('active');
@@ -124,18 +123,6 @@ const newPartner = [
   {
     partnerImage: 'assets/img/exa.png',
     partnerName: 'eXa Limited 03',
-  },
-];
-const pastEvent = [
-  {
-    pastEventImage: 'assets/img/theater.jpg',
-    pastEventYear: '2021',
-    pastEventAbout: 'Special valentine\'s day',
-  },
-  {
-    pastEventImage: 'assets/img/theater.jpg',
-    pastEventYear: '2022',
-    pastEventAbout: 'Special Archaic dances',
   },
 ];
 
@@ -304,24 +291,4 @@ partners.innerHTML += `
             <p>${newPartner[3].partnerName}</p>
             <img src="${newPartner[3].partnerImage}" alt="This is a patner logo">
           </li>
-`;
-pastEventt.innerHTML += `
-          <div class="past-event">
-            <div class="past-event-over">
-              <div class="over-text">
-              <p>${pastEvent[0].pastEventYear}</p>
-              <p>${pastEvent[0].pastEventAbout}</p>
-              </div>
-            </div>
-            <img src="${pastEvent[0].pastEventImage}" alt="">
-          </div>
-          <div class="past-event">
-            <div class="past-event-over">
-              <div class="over-text">
-                <p>${pastEvent[1].pastEventYear}</p>
-                <p>${pastEvent[1].pastEventAbout}</p>
-              </div>
-            </div>
-            <img src="${pastEvent[1].pastEventImage}" alt="">
-          </div>
 `;
