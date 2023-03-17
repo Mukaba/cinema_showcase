@@ -46,15 +46,55 @@ html {
 .header-bar {
   position: fixed;
   z-index: 9;
-  display: flex;
-  align-items: center;
-  padding: 0 1rem;
+
+  /* display: flex;
+  align-items: center; */
+
+  /* padding: 0 1rem; */
   top: 0;
   left: 0;
   right: 0;
-  height: 4rem;
+
+  /* height: 4rem; */
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: white;
+}
+
+.nav-bar-2 {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+}
+
+.medias {
+  display: none;
+  height: 2rem;
+  width: 100%;
+  background: #272a31;
+  gap: 1rem;
+  align-items: center;
+  justify-content: end;
+  padding-right: 15%;
+}
+
+.medias > * {
+  color: white;
+  height: 1rem;
+  font-size: 0.7rem;
+}
+
+.fb,
+.twitter {
+  width: 1rem;
+}
+
+.english a,
+.mypage a,
+.logout a {
+  color: white;
+  font-weight: bold;
 }
 
 .nav-bar {
@@ -685,8 +725,12 @@ li .prettion {
 /* Larger screens */
 
 @media only screen and (min-width: 768px) {
-  .header-bar {
+  .nav-bar-2 {
     justify-content: space-between;
+  }
+
+  .medias {
+    display: flex;
   }
 
   .nav-bar {
