@@ -5,8 +5,6 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: Lato-regular, serif;
-
-  /* border: 1px solid grey; */
 }
 
 a {
@@ -46,11 +44,6 @@ html {
 .header-bar {
   position: fixed;
   z-index: 9;
-
-  /* display: flex;
-  align-items: center; */
-
-  /* padding: 0 1rem; */
   top: 0;
   left: 0;
   right: 0;
@@ -172,7 +165,7 @@ li .prettion {
 }
 
 .logo {
-  margin-left: 5rem;
+  margin-left: 6rem;
   height: 3rem;
   width: 6rem;
 }
@@ -444,10 +437,6 @@ li .prettion {
   left: 0;
   height: 5rem;
   width: 5rem;
-
-  /* background-image: url(/assets/img/b&w.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 .movie-bg img {
@@ -492,8 +481,6 @@ li .prettion {
 
 .partner {
   display: flex;
-
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   height: 7rem;
