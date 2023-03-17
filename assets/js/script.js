@@ -78,7 +78,7 @@ const newProgram = [
 const newMovie = [
   {
     coverImage: 'assets/img/img1.jpg',
-    bgImage: 'assets/img/b&w.jpg',    
+    bgImage: 'assets/img/b&w.jpg',
     movieName: 'No way home',
     movieDate: '2022-10-28',
     movieDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur reprehenderit voluptatem magni.',
