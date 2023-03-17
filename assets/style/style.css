@@ -818,6 +818,22 @@ li .prettion {
     width: 12rem;
   }
 
+  .partners-section {
+    gap: 5rem;
+  }
+
+  .partner-list {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .partner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .footer {
     padding: 1rem 10rem;
   }
